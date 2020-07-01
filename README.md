@@ -50,6 +50,10 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ```
 :CocInstall coc-phpls
 ```
+* Python
+```
+:CocInstall coc-python
+```
 * C/C++
 
 You need to install a language server manually with your distribution's package manager. For Arch Linux:
