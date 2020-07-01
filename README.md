@@ -33,6 +33,30 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ```
 
 ### Install plugins with vim-plug
-```vim
+```
 :PlugInstall
+```
+
+### Set up CoC language servers
+* JSON
+```
+:CocInstall coc-json
+```
+* JavaScript/TypeScript
+```
+:CocInstall coc-tsserver
+```
+* PHP
+```
+:CocInstall coc-phpls
+```
+* C/C++
+You need to install a language server manually with your distributions package manager. For Arch Linux:
+```
+sudo pacman -S ccls
+```
+* Bash
+The same process as C/C++
+```
+sudo pacman -S bash-language-server
 ```
