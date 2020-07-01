@@ -51,11 +51,13 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 :CocInstall coc-phpls
 ```
 * C/C++
-You need to install a language server manually with your distributions package manager. For Arch Linux:
+
+You need to install a language server manually with your distribution's package manager. For Arch Linux:
 ```
 sudo pacman -S ccls
 ```
 * Bash
+
 The same process as C/C++
 ```
 sudo pacman -S bash-language-server
