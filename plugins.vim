@@ -23,4 +23,3 @@ Plug 'francoiscabrol/ranger.vim'
 Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
-
