@@ -15,6 +15,7 @@ set encoding=UTF-8                  " Character encoding
 set guifont=Hack\ Nerd\ Font\ 11    " GUI Font
 set laststatus=2                    " Always display the status bar
 set noshowmode                      " Don't display things like -- INSERT --
+set t_Co=256                        " Enable 256 colors
 set termguicolors                   " Enable truecolor support
 set iskeyword+=-                    " Treat sections delimited with these characters as a single word
 set nobackup                        " Recommended by coc
