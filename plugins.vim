@@ -28,6 +28,7 @@ Plug 'prettier/vim-prettier', {
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 Plug 'pechorin/any-jump.vim'
 Plug 'dyng/ctrlsf.vim'
+Plug 'RRethy/vim-illuminate'
 Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
