@@ -21,6 +21,8 @@ Plug 'liuchengxu/vim-which-key'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'francoiscabrol/ranger.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+Plug 'preservim/nerdcommenter'
 Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
