@@ -18,6 +18,9 @@ set noshowmode                      " Don't display things like -- INSERT --
 set t_Co=256                        " Enable 256 colors
 set termguicolors                   " Enable truecolor support
 set iskeyword+=-                    " Treat sections delimited with these characters as a single word
+set hidden                          " Recommended by coc
+set cmdheight=2                     " Give more space for displaying messages
+set shortmess+=c                    " Don't pass messages to ins-completion-menu
 set nobackup                        " Recommended by coc
 set nowritebackup                   " Recommended by coc
 set updatetime=300                  " Faster completion

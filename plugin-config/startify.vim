@@ -17,7 +17,7 @@ let g:startify_custom_header =
 
 " Custom headings for Startify lists
 let g:startify_lists = [
-    \ { 'type': 'files',     'header': ['   Recent Files']                        },
+    \ { 'type': 'files',     'header': ['   Recent Files']                 },
     \ { 'type': 'dir',       'header': ['   Current Directory '. getcwd()] },
     \ { 'type': 'sessions',  'header': ['   Sessions']                     },
     \ { 'type': 'bookmarks', 'header': ['   Bookmarks']                    },
