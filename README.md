@@ -1,6 +1,11 @@
 # My neovim configuration
 ![alt text](https://raw.githubusercontent.com/dusnm/nvim/master/utils/images/nvim.png)
 
+### Dependencies
+* Language servers: **ccls**, **bash-language-server**
+* Package managers: **yarn**
+* Code formatters: **php-cs-fixer**
+
 ### Install Neovim
 * Ubuntu
 ```sh
@@ -38,6 +43,10 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ```
 
 ### Set up CoC language servers
+* HTML
+```
+:CocInstall coc-html
+```
 * JSON
 ```
 :CocInstall coc-json
