@@ -21,7 +21,6 @@ Plug 'liuchengxu/vim-which-key'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'francoiscabrol/ranger.vim'
 Plug 'tpope/vim-fugitive'
-Plug 'ervandew/supertab'
 Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
