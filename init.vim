@@ -22,6 +22,7 @@ source $HOME/.config/nvim/plugin-config/startify.vim
 source $HOME/.config/nvim/plugin-config/nerd-tree.vim
 source $HOME/.config/nvim/plugin-config/ranger.vim
 source $HOME/.config/nvim/plugin-config/airline.vim
+source $HOME/.config/nvim/plugin-config/nerd-commenter.vim
 
 " Source active theme
 source $HOME/.config/nvim/themes/gruvbox.vim
