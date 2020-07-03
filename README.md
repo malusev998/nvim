@@ -5,6 +5,7 @@
 * Language servers: **ccls**, **bash-language-server**
 * Package managers: **yarn**
 * Code formatters: **php-cs-fixer**
+* Misc: **ranger**
 
 ### Install Neovim
 * Ubuntu
