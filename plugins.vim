@@ -26,6 +26,8 @@ Plug 'preservim/nerdcommenter'
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+Plug 'pechorin/any-jump.vim'
+Plug 'dyng/ctrlsf.vim'
 Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
