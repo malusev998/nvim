@@ -22,6 +22,8 @@ nmap <leader>gp :Git push<Space>
 nmap <leader>gs :Git status<Space>
 nmap <leader>gb :Git blame<Space>
 nmap <leader>gl :Git log<Space>
+nmap <leader>gd :Git diff<Space>
+nmap <leader>y :Goyo<Space>
 
 vmap <C-_> <Plug>NERDCommenterToggle
 

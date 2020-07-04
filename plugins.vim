@@ -29,6 +29,7 @@ Plug 'prettier/vim-prettier', {
 Plug 'pechorin/any-jump.vim'
 Plug 'dyng/ctrlsf.vim'
 Plug 'RRethy/vim-illuminate'
+Plug 'junegunn/goyo.vim'
 Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
