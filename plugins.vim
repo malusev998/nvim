@@ -30,6 +30,7 @@ Plug 'pechorin/any-jump.vim'
 Plug 'dyng/ctrlsf.vim'
 Plug 'RRethy/vim-illuminate'
 Plug 'junegunn/goyo.vim'
+Plug 'dhruvasagar/vim-table-mode'
 Plug 'ryanoasis/vim-devicons'
 
 call plug#end()

@@ -26,6 +26,7 @@ source $HOME/.config/nvim/plugin-config/nerd-commenter.vim
 source $HOME/.config/nvim/plugin-config/prettier.vim
 source $HOME/.config/nvim/plugin-config/ctrlp.vim
 source $HOME/.config/nvim/plugin-config/goyo.vim
+source $HOME/.config/nvim/plugin-config/vim-table-mode.vim
 
 " Source active theme
 source $HOME/.config/nvim/themes/gruvbox.vim
