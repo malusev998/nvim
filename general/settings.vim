@@ -24,7 +24,7 @@ set shortmess+=c                    " Don't pass messages to ins-completion-menu
 set nobackup                        " Recommended by coc
 set nowritebackup                   " Recommended by coc
 set updatetime=300                  " Faster completion
-set background=dark                 " Default background color to the dark variant
+set background=dark                 " Default background color to the dark/light variant
 
 " Enable syntax highlighing for i3wm configuration file
 aug i3config_ft_detection
