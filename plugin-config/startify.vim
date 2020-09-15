@@ -25,13 +25,8 @@ let g:startify_lists = [
 
 " Bookmarks to frequently edited files
 let g:startify_bookmarks = [
-    \ { 'i': '~/.config/i3/config' },
-    \ { 'l': '~/.config/i3/i3blocks.conf' },
-    \ { 'b': '~/.config/i3/blocks' },
-    \ { 's': '~/.scripts' },
     \ { 'p': '~/Documents/Projects' },
     \ { 'v': '~/.config/nvim/init.vim' },
-    \ { 'x': '~/.Xresources' },
     \ { 'z': '~/.zshrc' },
     \ ]
 

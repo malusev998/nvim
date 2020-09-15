@@ -1,26 +1,136 @@
 {
     "languageserver": {
-        "ccls": {
-            "command": "ccls",
-            "filetypes": ["c", "cpp", "objc", "objcpp"],
-            "rootPatterns": [
-                ".ccls",
-                "compile_commands.json",
-                ".vim/",
-                ".git/",
-                ".hg/"
-            ],
-            "initializationOptions": {
-                "cache": {
-                    "directory": "/tmp/ccls"
-                }
-            }
-        },
-        "bash": {
+       "bash": {
             "command": "bash-language-server",
             "args": ["start"],
             "filetypes": ["sh"],
             "ignoredRootPaths": ["~"]
+        },
+        "go": {
+            "command": "gopls",
+            "rootPatterns": ["go.mod"],
+            "trace.server": "verbose",
+            "filetypes": ["go"]
+        },
+         "clangd": {
+            "command": "clangd",
+            "rootPatterns": ["compile_flags.txt", "compile_commands.json"],
+            "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]
+        },
+        "cmake": {
+            "command": "cmake-language-server",
+            "filetypes": ["cmake"],
+            "rootPatterns": [
+                "build/"
+            ],
+            "initializationOptions": {
+                "buildDirectory": "build"
+            }
+        },
+        "intelephense": {
+            "command": "intelephense",
+            "args": ["--stdio"],
+            "filetypes": ["php"],
+            "initializationOptions": {
+                "storagePath": "/tmp/intelephense"
+            },
+            "settings": {
+                "intelephense.stubs": [
+                "amqp",
+                "apcu",
+                "bcmath",
+                "blackfire",
+                "bz2",
+                "cassandra",
+                "Core",
+                "crypto",
+                "ctype",
+                "curl",
+                "date",
+                "dom",
+                "ds",
+                "enchant",
+                "Ev",
+                "event",
+                "FFI",
+                "fileinfo",
+                "filter",
+                "fpm",
+                "gd",
+                "geoip",
+                "geos",
+                "gettext",
+                "gmp",
+                "gnupg",
+                "grpc",
+                "hash",
+                "iconv",
+                "igbinary",
+                "imagick",
+                "inotify",
+                "intl",
+                "json",
+                "libevent",
+                "lua",
+                "mbstring",
+                "memcached",
+                "meminfo",
+                "meta",
+                "mongodb",
+                "mysqli",
+                "openssl",
+                "parallel",
+                "pcntl",
+                "pcov",
+                "pcre",
+                "pdflib",
+                "PDO",
+                "pdo_mysql",
+                "pdo_pgsql",
+                "pdo_sqlite",
+                "pgsql",
+                "Phar",
+                "posix",
+                "readline",
+                "recode",
+                "redis",
+                "Reflection",
+                "regex",
+                "session",
+                "sockets",
+                "sodium",
+                "solr",
+                "SPL",
+                "SplType",
+                "SQLite",
+                "sqlite3",
+                "sqlsrv",
+                "standard",
+                "stats",
+                "superglobals",
+                "tidy",
+                "tokenizer",
+                "xdebug",
+                "xhprof",
+                "yaml",
+                "zend",
+                "Zend OPcache",
+                "ZendCache",
+                "zip",
+                "zlib",
+                "zmq"
+                ]
+            }
+        },
+        "dockerfile": {
+            "command": "docker-langserver",
+            "filetypes": ["dockerfile"],
+            "args": ["--stdio"]
+        },
+        "sql": {
+            "command": "sql-language-server",
+            "args" : ["up", "--method", "stdio"],
+            "filetypes": ["sql", "mysql"]
         }
     }
 }
