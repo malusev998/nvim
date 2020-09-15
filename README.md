@@ -2,7 +2,7 @@
 ![alt text](https://raw.githubusercontent.com/dusnm/nvim/master/utils/images/nvim.png)
 
 ### Dependencies
-* Language servers: **ccls**, **bash-language-server**
+* Language servers: **intelephense**, **clangd** **docker-language-server** **sql-language-server** **cmake-language-server**
 * Package managers: **yarn**
 * Code formatters: **php-cs-fixer**
 * Misc: **ranger**
@@ -56,23 +56,27 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ```
 :CocInstall coc-tsserver
 ```
+
+* Docker
+```
+npm install -g dockerfile-language-server-nodejs
+```
+
+* SQL
+```
+npm i -g sql-language-server
+```
+
 * PHP
 ```
-:CocInstall coc-phpls
+npm install -g intelephense
 ```
-* Python
-```
-:CocInstall coc-python
-```
+
 * C/C++
 
-You need to install a language server manually with your distribution's package manager. For Arch Linux:
+You need to install a language server manually with your distribution's package manager. For Ubuntu (PopOS):
 ```
-sudo pacman -S ccls
-```
-* Bash
+apt install clang clang-format clang-tools
+pip install cmake-language-server
 
-The same process as C/C++
-```
-sudo pacman -S bash-language-server
 ```
