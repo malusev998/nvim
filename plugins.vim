@@ -1,6 +1,5 @@
 call plug#begin()
 
-Plug 'mboughaba/i3config.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'StanAngeloff/php.vim'
@@ -12,8 +11,6 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
 Plug 'vim-vdebug/vdebug'
 Plug 'mattn/emmet-vim'
 Plug 'jwalton512/vim-blade'
-Plug 'mustache/vim-mustache-handlebars'
-Plug 'hzchirs/vim-material'
 Plug 'morhetz/gruvbox'
 Plug 'majutsushi/tagbar'
 Plug 'mhinz/vim-startify'
@@ -25,12 +22,17 @@ Plug 'airblade/vim-gitgutter'
 Plug 'preservim/nerdcommenter'
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
-  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'markdown', 'vue', 'yaml', 'html'] }
 Plug 'pechorin/any-jump.vim'
 Plug 'dyng/ctrlsf.vim'
 Plug 'RRethy/vim-illuminate'
 Plug 'junegunn/goyo.vim'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'ryanoasis/vim-devicons'
+Plug 'scrooloose/nerdcommenter'
+Plug 'valloric/youcompleteme'
+Plug 'fatih/vim-go'`
+Plug 'junegunn/fzf'
+
 
 call plug#end()

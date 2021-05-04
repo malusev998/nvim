@@ -30,7 +30,7 @@ Instructions are only for GNU/Linux as that's all I actively use, for any other 
 
 * Clone the repository
 ```sh
-git clone https://github.com/dusnm/nvim.git ~/.config/nvim
+git clone https://github.com/malusev998/nvim.git ~/.config/nvim
 ```
 * Install vim-plug
 ```sh
