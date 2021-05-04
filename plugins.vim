@@ -30,9 +30,7 @@ Plug 'junegunn/goyo.vim'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'ryanoasis/vim-devicons'
 Plug 'scrooloose/nerdcommenter'
-Plug 'valloric/youcompleteme'
 Plug 'fatih/vim-go'
 Plug 'junegunn/fzf'
-
 
 call plug#end()
